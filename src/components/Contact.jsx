@@ -35,7 +35,7 @@ export default function Contact() {
           >
             {[
               { icon: Phone, label: 'Teléfono', value: '+1 (555) 123-4567' },
-              { icon: Mail, label: 'Email', value: 'contacto@constructora.com' },
+              { icon: Mail, label: 'Email', value: 'direccion@constructoraarkonis.com.mx' },
               { icon: MapPin, label: 'Dirección', value: 'Av. Principal 123, Ciudad' },
               { icon: Clock, label: 'Horario', value: 'Lun - Vie: 8:00 AM - 6:00 PM' },
             ].map((item) => (
