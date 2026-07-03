@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #F26A1B;
+  --color-primary-dark: #d45a14;
+  --color-primary-light: #f58a45;
+  --color-dark: #2E2E2E;
+  --color-dark-900: #1a1a1a;
+  --color-dark-800: #3a3a3a;
+  --color-dark-700: #4a4a4a;
+  --color-gray-150: #f0f0f0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: white;
+}
