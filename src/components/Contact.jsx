@@ -91,7 +91,7 @@ export default function Contact() {
             transition={{ duration: 0.7 }}
             className="space-y-5"
           >
-            <div className="grid grid-cols-2 gap-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
               <input
                 type="text"
                 placeholder="Nombre"

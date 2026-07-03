@@ -32,7 +32,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
-          <img src={logo} alt="Arkonis" className="h-28 w-auto mt-6" />
+          <img src={logo} alt="Arkonis" className="h-20 md:h-28 w-auto mt-6" />
         </a>
 
         <div className="hidden md:flex items-center gap-8">
