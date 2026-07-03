@@ -52,7 +52,7 @@ export default function Contact() {
                 { icon: Phone, label: 'Teléfono', value: '+52 56 4802 4018', href: `https://wa.me/${WHATSAPP_NUMBER}` },
                 { icon: MessageCircle, label: 'WhatsApp', value: '+52 56 4802 4018', href: `https://wa.me/${WHATSAPP_NUMBER}` },
                 { icon: Mail, label: 'Email', value: 'direccion@constructoraarkonis.com.mx', href: 'mailto:direccion@constructoraarkonis.com.mx' },
-                { icon: MapPin, label: 'Dirección', value: 'Av. Principal 123, Ciudad' },
+                
                 { icon: Clock, label: 'Horario', value: 'Lun - Vie: 8:00 AM - 6:00 PM' },
               ].map((item) => {
                 const content = (
